@@ -1,71 +1,43 @@
-body {
-  padding: 20px; 
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f0f0f0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
+export const products = [
+ {
+    productName: "Tires for Bike",
+    price: 700,
+    currency: "PHP",
+    isAvailable: true,
+    image: "https://i5.walmartimages.com/seo/Knobby-Tread-Cruiser-Bike-Tire-26in-x-2-125in-Black_10d80f9d-179b-4656-85e8-2536fccca0a0.c21133395867d517d3d639806ae0c550.jpeg"
+ },
+ {
+    productName: "Rear Derailluer",
+    price: 2500,
+    currency: "PHP",
+    isAvailable: true,
+    image: "https://tse3.mm.bing.net/th/id/OIP.G0CSn-IT9JvUyFCnLwzpcAHaHa?r=0&cb=thfc1&w=1500&h=1500&rs=1&pid=ImgDetMain&o=7&rm=3"
+ } ,
+ {
+    productName: "Bike Frame",
+    price: 5000,
+    currency: "PHP",
+    isAvailable: true,
+    image: "https://tideacebike.com/cdn/shop/files/Carbon-mountain-bike-frame-27.5er-rigid_1.jpg?v=1711705247"
+ } ,
+ {
+    productName: "Saddle",
+    price: 500,
+    currency: "PHP",
+    isAvailable: false,
+    image: "https://www.twowheeledwanderer.com/wp-content/uploads/2023/07/WTB-Volt-bike-saddle.jpg"
+ },
+ {
+    productName: "Hallowtech Groupset",
+    price: 1500,
+    currency: "PHP",
+    isAvailable: false,
+    image: "https://lzd-img-global.slatic.net/g/p/e65652066c5c281c9a928e54cac7ef59.jpg_720x720q80.jpg"
 
-
-h1 {
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-
-#product-parent {
-  flex: 2;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  max-width: 600px; 
-}
-
-#product-parent div {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-}
-
-#product-parent p {
-  margin: 8px 0;
-  max-width: 100%;
-}
-
-.add-button {
-  background-color: #3eeef1;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.add-button:hover {
-  background-color: #4de9f7;
-}
-
-#cart-parent {
-  position: fixed;
-  right: 20px;
-  top: 140px;
-
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  background: #fff;
-  padding: 10px 15px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  width: fit-content;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+ },
+ {
+    productName: "AirShock",
+    price: 3000,
+    currency: "PHP",
+    isAvailable: true,
+    image: "https://i5.walmartimages.com/seo/BUCKLOS-Mountain-Bicycle-Suspension-Forks-26-27-5-29-inch-MTB-Bike-Front-Fork-with-Preload-Adjustment-100mm-Travel-28-6mm-Threadless-Steerer_80defe7e-8e73-46fb-a5b1-67ca24ebbeba.4cc3b1ac59c29
